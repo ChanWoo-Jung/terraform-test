@@ -1,7 +1,14 @@
 global/s3/.terraform
 stage/services/webserver-cluster/.terraform
 stage/data-stores/mysql/.terraform
+prod/services/webserver-cluster/.terraform
+module/services/webserver-cluster/.terraform
+
 
 global/s3/*tfstate*
 stage/services/webserver-cluster/*tfstate*
+prod/services/webserver-cluster/*tfstate*
 stage/data-stores/mysql/*tfstate*
+module/services/webserver-cluster/*tfstate*
+
+
